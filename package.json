@@ -1,0 +1,25 @@
+{
+  "name": "jquery-plugins",
+  "version": "0.0.0",
+  "description": "A bunch of useful JQuery plugins for different purposes - different ui and ajax helpers ans wrappers ",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yazla/jquery-plugins.git"
+  },
+  "keywords": [
+    "JQuery",
+    "plugins",
+    "ui",
+    "helpers"
+  ],
+  "author": "Yuriy Yazlovytskyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yazla/jquery-plugins/issues"
+  },
+  "homepage": "https://github.com/yazla/jquery-plugins"
+}
