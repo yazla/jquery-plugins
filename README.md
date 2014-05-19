@@ -12,5 +12,6 @@ item-list
 rest-ajax
 
 Most of the source file has a description in the beginning, please use it as docs for now.
-*The detailed description and code expamples will added here soon.*
+
+***The detailed description and code expamples will added here soon.***
 
