@@ -6,11 +6,17 @@ $.fn.bind_collection = (collection) ->
        'remove' : @remove_item
     }, @)
 
+    @
+
 $.fn.bind_model = (model) ->
 
-    @update_properties = (properties) ->
-        @find("[data = #{property}]").update(value) for property, value in properties
+    @update_properties = (properties) =>
+        for property, value of properties
+            prop_el = @find("[data = #{property}]")
+            if prop_el.prop('value')? then prop_el.val(value) else prop_el.html(value)
 
     @update_properties(model.attributes)
 
-    model.on('change', (m) => @update_properties(m.changedAttributes))
+    model.on('change', (m) => @update_properties(m.changedAttributes()) )
+
+    @
