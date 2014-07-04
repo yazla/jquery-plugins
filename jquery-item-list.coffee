@@ -23,5 +23,4 @@ $.fn.item_list = (options) ->
         items = _.pluck(@items_elements, 'item')
         @load_items(items)
 
-
     @
